@@ -44,6 +44,9 @@ You can use the following commands to run the application:
   [http://localhost:4000](http://localhost:4000)
 - `rails start`: run the frontend and backend together with one command
 
+Make sure to also update this README to include documentation about
+your project. Here's a list of some [awesome readmes][] for inspiration.
+
 ## Project Guidance
 
 ### Planning
@@ -177,3 +180,4 @@ features instead of a solid core of working features.
 [mvp]: https://blog.crisp.se/2016/01/25/henrikkniberg/making-sense-of-mvp
 [dbdiagram.io]: https://dbdiagram.io/
 [thinking in react]: https://reactjs.org/docs/thinking-in-react.html
+[awesome readmes]: https://github.com/matiassingers/awesome-readme
