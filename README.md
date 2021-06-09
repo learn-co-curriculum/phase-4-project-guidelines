@@ -29,23 +29,17 @@ For this project, you must:
 
 ## Project Setup
 
-To help get started on this project, the repository with the project guidelines
-(the one you're reading right now!) has all the starter code needed for a Rails
-API with a React frontend. It's set up the same way as all of the labs from this
-phase. To set it up for your project:
+To help get started on this project, it's recommended that you use this
+project template:
 
-- Fork and clone this repository
-- Run `rails install` to download the Rails and React dependencies
+- [https://github.com/learn-co-curriculum/project-template-react-rails-api][project template]
 
-You can use the following commands to run the application:
+This template set up the same way as all of the labs from this phase, and has
+the configuration done so you will able to deploy the app to Heroku using a
+similar process as we described in the Deploying module.
 
-- `rails s`: run the backend on [http://localhost:3000](http://localhost:3000)
-- `npm start --prefix client`: run the frontend on
-  [http://localhost:4000](http://localhost:4000)
-- `rails start`: run the frontend and backend together with one command
-
-Make sure to also update this README to include documentation about
-your project. Here's a list of some [awesome readmes][] for inspiration.
+Make sure to follow the setup instructions in the readme for the template to get
+started.
 
 ## Project Guidance
 
@@ -170,8 +164,18 @@ Also, remember to prioritize your MVP features. It can be tempting to try and
 build everything at once, but that is a sure-fire way to end up with many broken
 features instead of a solid core of working features.
 
+## Deploying
+
+The template project has all the starter code needed to help you deploy your
+application to Heroku. It's recommended to deploy your project early and push up
+changes often to ensure that your code works equally well in production and
+development environments.
+
+Follow the instructions in the template to deploy your app!
+
 ## Resources
 
+- [Project Template: React/Rails API][project template]
 - [ERD Visualizations: dbdiagram.io][dbdiagram.io]
 - [Excalidraw - basic hand-drawn wireframes](https://excalidraw.com/)
 - [Figma - professional design tool](https://www.figma.com/)
@@ -181,3 +185,4 @@ features instead of a solid core of working features.
 [dbdiagram.io]: https://dbdiagram.io/
 [thinking in react]: https://reactjs.org/docs/thinking-in-react.html
 [awesome readmes]: https://github.com/matiassingers/awesome-readme
+[project template]: https://github.com/learn-co-curriculum/project-template-react-rails-api
