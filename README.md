@@ -13,7 +13,10 @@ backend framework! The goals of this project are to:
 - prepare you for building a capstone project in Phase 5
 - build a quality project to include in your portfolio
 
-Before you start ideating, think about some of the project requirements.
+The instructions below will walk you through the process of ideating and
+planning your app: deciding on your models and relationships, planning how the
+information will be laid out on the page, etc. You should work through all the
+planning steps before you start doing any coding.
 
 ## Requirements
 
@@ -29,8 +32,8 @@ For this project, you must:
 
 ## Project Setup
 
-To help get started on this project, it's recommended that you use this
-project template:
+Once you've got a solid plan in place for your app and you're ready to start
+coding, it's recommended that you use this project template:
 
 - [https://github.com/learn-co-curriculum/project-template-react-rails-api][project template]
 
@@ -59,7 +62,7 @@ For example:
   - Log into the site
   - View a list of all available dog houses in my area and their reviews
   - Create a review for one specific dog house
-  - Delete a review that I left
+  - Modify or elete a review that I left
   - Create a new dog house listing
 - Stretch: As a user, I can:
   - View dog houses on a map
