@@ -62,7 +62,7 @@ For example:
   - Log into the site
   - View a list of all available dog houses in my area and their reviews
   - Create a review for one specific dog house
-  - Modify or elete a review that I left
+  - Modify or delete a review that I left
   - Create a new dog house listing
 - Stretch: As a user, I can:
   - View dog houses on a map
