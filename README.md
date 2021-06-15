@@ -20,8 +20,8 @@ Before you start ideating, think about some of the project requirements.
 For this project, you must:
 
 - Use a Rails API backend with a React frontend.
-- Have at least two resources (two DB tables) on the backend and your
-  application must have full CRUD actions for at least one resource.
+- Have at least two resources (two DB tables) on the backend; your application
+  must have full CRUD actions for at least one resource.
 - Have at least two different client-side routes using React Router.
 - Implement authentication/authorization. At a minimum, a user should be able to
   log into the site and stay logged in via user ID in the session hash. Password
@@ -34,11 +34,11 @@ project template:
 
 - [https://github.com/learn-co-curriculum/project-template-react-rails-api][project template]
 
-This template set up the same way as all of the labs from this phase, and has
-the configuration done so you will able to deploy the app to Heroku using a
-similar process as we described in the Deploying module.
+This template is set up the same way as all of the labs from this phase. It has
+also been configured to enable you to deploy the app to Heroku using a similar
+process to the one described in the Deploying module.
 
-Make sure to follow the setup instructions in the readme for the template to get
+Make sure to follow the setup instructions in the template's readme to get
 started.
 
 ## Project Guidance
@@ -47,7 +47,7 @@ started.
 
 #### User Stories
 
-Start by deciding a domain for your app (such as "AirBNB for dogs"). Then,
+Start by deciding on a domain for your app (such as "AirBNB for dogs"). Then,
 decide what **user stories** your app will need. It is helpful to break up your
 user stories between what is required for the [**Minimum Viable Product** (MVP)][mvp]
 version of your app, and what you'd like to save for stretch features after
@@ -82,10 +82,10 @@ you need. For example, from the list above, we have:
 You can also get a sense of the relationships between the models and use that as
 the basis of your **Entity Relationship Diagram** (ERD). For example, we can
 tell based on the user stories above that a **review** belongs to a specific
-**user**, since a user is able to create a review; and a **review** belongs to a
-specific **dog house**.
+**user** — since a user is able to create a review — and a **review** belongs to
+a specific **dog house**.
 
-You can use a website like [dbdiagram.io][] to help make a ERD and represent
+You can use a website like [dbdiagram.io][] to help make an ERD and represent
 these relationships, or draw out something simple:
 
 ```txt
@@ -133,9 +133,8 @@ the frontend and finally styling everything, work on one **feature** at a time,
 such as working on login, then displaying a list of dog houses, then leaving a
 review.
 
-You can visualize all the parts you of an app you need to build as a grid, with
-the features along the x axis (columns) and the different layers of the stack
-along the y axis.
+You can visualize all the parts of an app you need to build as a grid, with the
+desired features in columns and the different layers of the stack in rows:
 
 |                    | Sign in flow | View dog houses | Leave a review |
 | ------------------ | ------------ | --------------- | -------------- |
@@ -147,12 +146,12 @@ along the y axis.
 | Data Fetching      |              |                 |                |
 | Styling            |              |                 |                |
 
-A strong temptation is to order your project timeline row-by-row. Do not do
-this! If you try to build all your migrations, then all your models, then all
-your controllers, then all your fetch calls, then all your view logic, you will
-have a bad time. Inevitably, your view logic ends up requiring changes to the
-underlying layers, and you end up building models that never end up using. If
-you instead build all the **vertical slices** involved in **one feature** before
+You may be tempted to order your project timeline row-by-row. Do not do this! If
+you try to build all your migrations, then all your models, then all your
+controllers, then all your fetch calls, then all your view logic you will have
+a bad time. Inevitably, your view logic ends up requiring changes to the
+underlying layers, and you end up building models that you never use. If you
+instead build **each feature** (each **vertical slice**) in its entirety before
 moving on to the next feature, you'll minimize rewriting, and end up with
 working features without waste.
 
