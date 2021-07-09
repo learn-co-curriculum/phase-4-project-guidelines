@@ -33,7 +33,9 @@ For this project, you must:
 ## Project Setup
 
 Once you've got a solid plan in place for your app and you're ready to start
-coding, it's recommended that you use this project template:
+coding, it's recommended that you use this project template.
+
+**Fork and clone** the project template repository to get started:
 
 - [https://github.com/learn-co-curriculum/project-template-react-rails-api][project template]
 
