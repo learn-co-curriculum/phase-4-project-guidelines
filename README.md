@@ -1,4 +1,4 @@
-# Phase 4 Project Requirements
+# Phase 4 Project Guidelines
 
 ## Learning Goals
 
