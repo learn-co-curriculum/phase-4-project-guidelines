@@ -33,18 +33,21 @@ For this project, you must:
 ## Project Setup
 
 Once you've got a solid plan in place for your app and you're ready to start
-coding, it's recommended that you use this project template.
-
-**Fork and clone** the project template repository to get started:
+coding, it's recommended that you use this project template:
 
 - [https://github.com/learn-co-curriculum/project-template-react-rails-api][project template]
 
-This template is set up the same way as all of the labs from this phase. It has
-also been configured to enable you to deploy the app to Heroku using a similar
-process to the one described in the Deploying module.
+The project template is set up the same way as all of the labs from this phase.
+It has also been configured to enable you to deploy the app to Heroku using a
+similar process to the one described in the Deploying module.
 
 Make sure to follow the setup instructions in the template's readme to get
 started.
+
+Alternately, if you'd like to set everything up from scratch, you can use this
+project setup guide:
+
+- [https://github.com/learn-co-curriculum/react-rails-project-setup-guide][project setup]
 
 ## Project Guidance
 
@@ -190,3 +193,4 @@ Follow the instructions in the template to deploy your app!
 [thinking in react]: https://reactjs.org/docs/thinking-in-react.html
 [awesome readmes]: https://github.com/matiassingers/awesome-readme
 [project template]: https://github.com/learn-co-curriculum/project-template-react-rails-api
+[project setup]: https://github.com/learn-co-curriculum/react-rails-project-setup-guide
