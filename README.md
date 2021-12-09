@@ -59,9 +59,9 @@ project setup guide:
 
 Start by deciding on a domain for your app (such as "AirBNB for dogs"). Then,
 decide what **user stories** your app will need. It is helpful to break up your
-user stories between what is required for the [**Minimum Viable Product**
-(MVP)][mvp] version of your app, and what you'd like to save for stretch
-features after you've met your MVP goals.
+user stories between what is required for the [**Minimum Viable Product** (MVP)][mvp]
+version of your app, and what you'd like to save for stretch features after
+you've met your MVP goals.
 
 For example:
 
@@ -111,12 +111,12 @@ user stories work?
 
 #### Wireframes
 
-For your frontend, it's a good idea to follow the ideas from [Thinking in
-React][] as you're designing your React application. That means starting with a
-visual representation of what your application should look like, in the form of
-a wireframe. The wireframe should give you a basic visual representation of what
-each page of your application should look like, and it should capture all of
-your user stories.
+For your frontend, it's a good idea to follow the ideas from
+[Thinking in React][] as you're designing your React application. That means
+starting with a visual representation of what your application should look like,
+in the form of a wireframe. The wireframe should give you a basic visual
+representation of what each page of your application should look like, and it
+should capture all of your user stories.
 
 Here are some tools for wireframing (pen and paper is also a fine choice!):
 
@@ -158,8 +158,8 @@ desired features in columns and the different layers of the stack in rows:
 
 You may be tempted to order your project timeline row-by-row. Do not do this! If
 you try to build all your migrations, then all your models, then all your
-controllers, then all your fetch calls, then all your view logic you will have a
-bad time. Inevitably, your view logic ends up requiring changes to the
+controllers, then all your fetch calls, then all your view logic you will have
+a bad time. Inevitably, your view logic ends up requiring changes to the
 underlying layers, and you end up building models that you never use. If you
 instead build **each feature** (each **vertical slice**) in its entirety before
 moving on to the next feature, you'll minimize rewriting, and end up with
@@ -194,7 +194,5 @@ Follow the instructions in the template to deploy your app!
 [dbdiagram.io]: https://dbdiagram.io/
 [thinking in react]: https://reactjs.org/docs/thinking-in-react.html
 [awesome readmes]: https://github.com/matiassingers/awesome-readme
-[project template]:
-  https://github.com/learn-co-curriculum/project-template-react-rails-api
-[project setup]:
-  https://github.com/learn-co-curriculum/react-rails-project-setup-guide
+[project template]: https://github.com/learn-co-curriculum/project-template-react-rails-api
+[project setup]: https://github.com/learn-co-curriculum/react-rails-project-setup-guide
