@@ -24,15 +24,17 @@ For this project, you must:
 
 - Use a Rails API backend with a React frontend.
 - Have **at least** three models on the backend, that include:
-  - at least one one-to-many relationship
-  - at least one many-to-many relationship
+  - at least two one-to-many relationship
+  - at least one reciprocal many-to-many relationship (implemented by using 2 has-many-through)
+    - note: your project therefore, must include a joins table. This joins table must include a user submittable attribute.
   - full CRUD actions for at least one resource
+  - minimum of create and read actions for EACH resource
 - Have at least three different client-side routes using React Router. Be sure
    to include a nav bar or other UI element that allows users to navigate
    between routes.
 - Implement authentication/authorization, including password protection. A user
-  should be able to log in to the site with a secure password and stay logged in
-  via user ID in the session hash.
+  must be able to sign up w a new user account, log in to the site with a secure password and stay logged in, as well as log out via user ID in the session hash.
+    - Note: a user should only be able to edit & delete resources if they are logged in and the creator of that resource. (I.e. I could only edit or delete reviews that I created in the example detailed below with models of User, DogHouse, and Review.)
 
 ## Project Setup
 
@@ -68,8 +70,10 @@ you've met your MVP goals.
 For example:
 
 - MVP: As a user, I can:
-  - Log into the site
-  - View a list of all available dog houses in my area and their reviews
+  - Sign up for an account
+  - Log into the site & remain logged in
+  - Logout
+  - View a list of all available dog houses in my area and their respective reviews
   - Create a review for one specific dog house
   - Modify or delete a review that I left
   - Create a new dog house listing
