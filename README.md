@@ -23,18 +23,28 @@ planning steps before you start doing any coding.
 For this project, you must:
 
 - Use a Rails API backend with a React frontend.
-- Have **at least** three models on the backend, that include:
-  - at least two one-to-many relationship
-  - at least one reciprocal many-to-many relationship (implemented by using 2 has-many-through)
-    - note: your project therefore, must include a joins table. This joins table must include a user submittable attribute.
-  - full CRUD actions for at least one resource
-  - minimum of create and read actions for EACH resource
+- Have **at least** three models on the backend, that include the following:
+  - At least two one-to-many relationships.
+  - At least one reciprocal many-to-many relationship (implemented by using 2
+    has-many-through relationships). **Note:** in order to accomplish this, your
+    project must include a joins table. This joins table must include a user
+    submittable attribute.
+  - Full CRUD actions for at least one resource.
+  - Minimum of create and read actions for EACH resource.
 - Have at least three different client-side routes using React Router. Be sure
    to include a nav bar or other UI element that allows users to navigate
    between routes.
 - Implement authentication/authorization, including password protection. A user
-  must be able to sign up w a new user account, log in to the site with a secure password and stay logged in, as well as log out via user ID in the session hash.
-    - Note: a user should only be able to edit & delete resources if they are logged in and the creator of that resource. (I.e. I could only edit or delete reviews that I created in the example detailed below with models of User, DogHouse, and Review.)
+  must be able to:
+  - sign up with a new user account,
+  - log in to the site with a secure password and stay logged in via user ID in
+    the session hash, and
+  - log out of the site.
+
+**Note**: a user should only be able to edit and delete resources if they are
+logged in and the creator of that resource. For example, if we consider the
+example described below with models of User, DogHouse, and Review, I would only
+be able to edit or delete the reviews that I created.
 
 ## Project Setup
 
@@ -70,17 +80,18 @@ you've met your MVP goals.
 For example:
 
 - MVP: As a user, I can:
-  - Sign up for an account
-  - Log into the site & remain logged in
-  - Logout
-  - View a list of all available dog houses in my area and their respective reviews
-  - Create a review for one specific dog house
-  - Modify or delete a review that I left
-  - Create a new dog house listing
+  - Sign up for an account,
+  - Log in to the site & remain logged in,
+  - Log out,
+  - View a list of all available dog houses in my area and their respective
+    reviews,
+  - Create a review for one specific dog house,
+  - Modify or delete a review that I left,
+  - Create a new dog house listing.
 - Stretch: As a user, I can:
-  - View dog houses on a map
-  - Search dog houses based on their distance from my location
-  - Filter dog houses based on their average rating
+  - View dog houses on a map,
+  - Search dog houses based on their distance from my location,
+  - Filter dog houses based on their average rating.
 
 #### Models and Relationships
 
