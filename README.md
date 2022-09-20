@@ -49,6 +49,8 @@ For this project, you must:
   - log in to the site with a secure password and stay logged in via user ID in
     the session hash, and
   - log out of the site.
+- Use the React hook `useContext` to persist your logged in `user` object in front 
+  end state and avoid props drilling. 
 
 **Note**: a user should only be able to edit and delete resources if they are
 logged in and the creator of that resource. For example, if we consider the
@@ -202,9 +204,8 @@ features instead of a solid core of working features.
 ## Deploying
 
 The template project has all the starter code needed to help you deploy your
-application to Heroku. It's recommended to deploy your project early and push up
-changes often to ensure that your code works equally well in production and
-development environments.
+application to Heroku. Please note that Heroku is sunsetting their free tier 
+hosting abilities as of November. We do not require deployment of your project.
 
 Follow the instructions in the template to deploy your app!
 
