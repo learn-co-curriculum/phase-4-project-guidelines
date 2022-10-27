@@ -54,7 +54,7 @@ coding, it's recommended that you use this project template:
 - [https://github.com/learn-co-curriculum/project-template-react-rails-api][project template]
 
 The project template is set up the same way as all of the labs from this phase.
-It has also been configured to enable you to deploy the app to Heroku using a
+It has also been configured to enable you to deploy the app to Render using a
 similar process to the one described in the Deploying module.
 
 Make sure to follow the setup instructions in the template's readme to get
@@ -193,7 +193,7 @@ features instead of a solid core of working features.
 ## Deploying
 
 The template project has all the starter code needed to help you deploy your
-application to Heroku. It's recommended to deploy your project early and push up
+application to Render. It's recommended to deploy your project early and push up
 changes often to ensure that your code works equally well in production and
 development environments.
 
@@ -210,6 +210,5 @@ Follow the instructions in the template to deploy your app!
 [mvp]: https://blog.crisp.se/2016/01/25/henrikkniberg/making-sense-of-mvp
 [dbdiagram.io]: https://dbdiagram.io/
 [thinking in react]: https://reactjs.org/docs/thinking-in-react.html
-[awesome readmes]: https://github.com/matiassingers/awesome-readme
 [project template]: https://github.com/learn-co-curriculum/project-template-react-rails-api
 [project setup]: https://github.com/learn-co-curriculum/react-rails-project-setup-guide
