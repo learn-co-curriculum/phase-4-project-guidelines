@@ -27,6 +27,7 @@ For this project, you must:
   - Proper RESTful routing
   - Do not rely on redirects and reloads to refresh data
   - No document.reload or window.reload in your application
+  - Do not use GET requests to update state after a POST, PATCH, or DELETE request. You should be adding to, updating, or removing from state instead.
 - Have at least three models on the backend, that include:
   - at least one many-to-many relationship
     - You need a join table with two foreign keys
