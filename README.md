@@ -23,23 +23,25 @@ planning steps before you start doing any coding.
 For this project, you must:
 
 - Use a Rails API backend with a React frontend.
-- Have **at least** three models on the backend, that include the following:
-  - At least two one-to-many relationships.
-  - At least one reciprocal many-to-many relationship (implemented by using 2
-    has-many-through relationships). **Note:** in order to accomplish this, your
-    project must include a joins table. This joins table must include a user
-    submittable attribute.
-  - Full CRUD actions for at least one resource.
-  - Minimum of create and read actions for EACH resource.
-- Have at least three different client-side routes using React Router. Be sure
-   to include a nav bar or other UI element that allows users to navigate
-   between routes.
-- Implement authentication/authorization, including password protection. A user
-  must be able to:
-  - sign up with a new user account,
-  - log in to the site with a secure password and stay logged in via user ID in
-    the session hash, and
-  - log out of the site.
+  - Follow best practices for both front and back end
+  - Proper RESTful routing
+  - Do not rely on redirects and reloads to refresh data
+  - No document.reload or window.reload in your application
+- Have at least three models on the backend, that include:
+  - at least one many-to-many relationship
+    - You need a join table with two foreign keys
+    - You will need two has many/belongs to relationships to implement
+    - Implement many to many by writing two has many through relationships
+    - YOU MUST DISPLAY AT LEAST ONE SIDE OF THIS RELATIONSHIP IN YOUR APPLICATION AND SHOW IT WORKS PROPERLY, other half can be evaluated in console
+- Separation of concerns → don’t force the front end to do the work of the back end. Pass needed associated objects in your JSON rather than asking the front end to figure out which items are associated with which - example of what not to do: using useEffect to retrieve all of two separate but associated items and using filter to find the associated items for a given thing.  Sending nested JSON allows the front end to directly access the associated items without filtering through them all. 
+- full CRUD actions for at least one resource
+  - A ‘like’ functionality will not count for an update, you must use a form that is pre-filled with existing values for the object. On submission of update form, the object updates appropriately.
+  - Validations and error messages also expected to be present
+- Have at least three different client-side routes using React Router. Be sure to include a nav bar or other UI element that allows users to navigate between routes.
+  - RESTful routing where applicable
+- Implement authentication/authorization, including password protection. A user should be able to log in to the site with a secure password and stay logged in via user ID in the session hash.
+  - Ensure you are able to walk through and explain the authentication process
+  - Ensure that one user is unable to edit or delete a resource created by another user. Only if the logged in user is the creator should they have this ability. 
 
 **Note**: a user should only be able to edit and delete resources if they are
 logged in and the creator of that resource. For example, if we consider the
