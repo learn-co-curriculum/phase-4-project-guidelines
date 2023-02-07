@@ -9,14 +9,20 @@
 You've made it! You're ready to build a full-stack application with a _powerful_
 backend framework! The goals of this project are to:
 
-- put together all the skills you've learned throughout the program
-- prepare you for building a capstone project in Phase 5
+- put together all the skills you've learned throughout the program,
+- prepare you for building a capstone project in Phase 5,
 - build a quality project to include in your portfolio
 
 The instructions below will walk you through the process of ideating and
 planning your app: deciding on your models and relationships, planning how the
 information will be laid out on the page, etc. You should work through all the
 planning steps before you start doing any coding.
+
+The other resource you should use as you work on your project is the [Flex Phase
+4 Project Review Study Guide][study guide]. The study guide contains not only a
+comprehensive checklist of the project requirements, but also information that
+will help you prepare for your project review: a list of the concepts you should
+be comfortable with, things to practice, resources you can use, etc.
 
 ## Requirements
 
@@ -31,26 +37,26 @@ For this project, you must:
   - Full CRUD actions for at least one resource.
   - Minimum of create and read actions for EACH resource.
 - Follow RESTful routing convention for backend routes.
-- [Active Record validations](https://guides.rubyonrails.org/active_record_validations.html) must be present on your models for most
-  attributes.
-- Use controller validations to alter back end json response to front end. 
-  The response should pass your object if the creation, update, or deletion
-  succeeds. However, the response should pass error messages to the front 
-  end and display them if the action fails. HINT: Utilize `record.errors`. 
-- Properly update front end state upon successful response from a POST, PATCH, 
+- [Active Record validations](https://guides.rubyonrails.org/active_record_validations.html)
+  must be present on your models for most attributes.
+- Use controller validations to alter back end json response to front end. The
+  response should pass your object if the creation, update, or deletion
+  succeeds. However, the response should pass error messages to the front end
+  and display them if the action fails. HINT: Utilize `record.errors`.
+- Properly update front end state upon successful response from a POST, PATCH,
   or DELETE request. That is to say, you should NOT rely on another GET request
   or redirect to update front end state of your application.
 - Have at least three different client-side routes using React Router. Be sure
-  to include a nav bar or other UI element that allows users to navigate
-  between routes. Follow RESTful convention where applicable.
+  to include a nav bar or other UI element that allows users to navigate between
+  routes. Follow RESTful convention where applicable.
 - Implement authentication/authorization, including password protection. A user
   must be able to:
   - sign up with a new user account,
   - log in to the site with a secure password and stay logged in via user ID in
     the session hash, and
   - log out of the site.
-- Use the React hook `useContext` to persist your logged in `user` object in front 
-  end state and avoid props drilling. 
+- Use the React hook `useContext` to persist your logged in `user` object in
+  front end state and avoid props drilling.
 
 **Note**: a user should only be able to edit and delete resources if they are
 logged in and the creator of that resource. For example, if we consider the
@@ -84,9 +90,9 @@ project setup guide:
 
 Start by deciding on a domain for your app (such as "AirBNB for dogs"). Then,
 decide what **user stories** your app will need. It is helpful to break up your
-user stories between what is required for the [**Minimum Viable Product** (MVP)][mvp]
-version of your app, and what you'd like to save for stretch features after
-you've met your MVP goals.
+user stories between what is required for the [**Minimum Viable Product**
+(MVP)][mvp] version of your app, and what you'd like to save for stretch
+features after you've met your MVP goals.
 
 For example:
 
@@ -139,12 +145,12 @@ user stories work?
 
 #### Wireframes
 
-For your frontend, it's a good idea to follow the ideas from
-[Thinking in React][] as you're designing your React application. That means
-starting with a visual representation of what your application should look like,
-in the form of a wireframe. The wireframe should give you a basic visual
-representation of what each page of your application should look like, and it
-should capture all of your user stories.
+For your frontend, it's a good idea to follow the ideas from [Thinking in
+React][] as you're designing your React application. That means starting with a
+visual representation of what your application should look like, in the form of
+a wireframe. The wireframe should give you a basic visual representation of what
+each page of your application should look like, and it should capture all of
+your user stories.
 
 Here are some tools for wireframing (pen and paper is also a fine choice!):
 
@@ -186,8 +192,8 @@ desired features in columns and the different layers of the stack in rows:
 
 You may be tempted to order your project timeline row-by-row. Do not do this! If
 you try to build all your migrations, then all your models, then all your
-controllers, then all your fetch calls, then all your view logic you will have
-a bad time. Inevitably, your view logic ends up requiring changes to the
+controllers, then all your fetch calls, then all your view logic you will have a
+bad time. Inevitably, your view logic ends up requiring changes to the
 underlying layers, and you end up building models that you never use. If you
 instead build **each feature** (each **vertical slice**) in its entirety before
 moving on to the next feature, you'll minimize rewriting, and end up with
@@ -221,5 +227,9 @@ Follow the instructions in the template to deploy your app!
 [mvp]: https://blog.crisp.se/2016/01/25/henrikkniberg/making-sense-of-mvp
 [dbdiagram.io]: https://dbdiagram.io/
 [thinking in react]: https://reactjs.org/docs/thinking-in-react.html
-[project template]: https://github.com/learn-co-curriculum/project-template-react-rails-api
-[project setup]: https://github.com/learn-co-curriculum/react-rails-project-setup-guide
+[project template]:
+  https://github.com/learn-co-curriculum/project-template-react-rails-api
+[project setup]:
+  https://github.com/learn-co-curriculum/react-rails-project-setup-guide
+[study guide]:
+  https://docs.google.com/document/d/1LmhE0vzXeS-ChmDPuHlSvOOv_6pxWg7i73HMgvs5zB0/edit
