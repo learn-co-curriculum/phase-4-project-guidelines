@@ -36,7 +36,7 @@ For this project, you must:
 - Use controller validations to alter back end json response to front end. 
   The response should pass your object if the creation, update, or deletion
   succeeds. However, the response should pass error messages to the front 
-  end and displayed if the action fails. HINT: Utilize `record.errors`. 
+  end and display them if the action fails. HINT: Utilize `record.errors`. 
 - Properly update front end state upon successful response from a POST, PATCH, 
   or DELETE request. That is to say, you should NOT rely on another GET request
   or redirect to update front end state of your application.
@@ -203,9 +203,9 @@ features instead of a solid core of working features.
 
 ## Deploying
 
-The template project has all the starter code needed to help you deploy your
-application to Heroku. Please note that Heroku is sunsetting their free tier 
-hosting abilities as of November. We do not require deployment of your project.
+The template project has all the starter code needed to help you deploy your application to Render.
+It's recommended to deploy your project early and push up changes often to ensure that your code
+works equally well in production and development environments.
 
 Follow the instructions in the template to deploy your app!
 
