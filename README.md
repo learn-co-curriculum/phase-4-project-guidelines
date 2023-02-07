@@ -34,7 +34,10 @@ For this project, you must:
     has-many-through relationships). **Note:** in order to accomplish this, your
     project must include a joins table. This joins table must include a user
     submittable attribute.
-  - Full CRUD actions for at least one resource.
+  - Full CRUD actions for at least one resource. The update action should be
+    implemented using a form that is pre-filled with existing values for the
+    object. On submission of the form, the object should update. **Note:** Using
+    a `like` button or similar will not meet the update requirement.
   - Minimum of create and read actions for EACH resource.
 - Follow RESTful routing convention for backend routes.
 - [Active Record validations](https://guides.rubyonrails.org/active_record_validations.html)
