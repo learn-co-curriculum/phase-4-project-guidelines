@@ -68,7 +68,7 @@ be able to edit or delete the reviews that I created. This protection should occ
 in the backend of the project. Simply altering the front end to hide the edit & delete 
 buttons is insufficient it terms of security. The code needed to secure these operations
 looks something like this `if current_user.id == post.user.id` assuming you have a
-current user method and a post belongs to a user.
+current user method and a post belongs to a user. 
 
 ## Project Setup
 
