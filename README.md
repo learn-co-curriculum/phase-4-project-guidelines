@@ -64,11 +64,12 @@ For this project, you must:
 **Note**: a user should only be able to edit and delete resources if they are
 logged in and the creator of that resource. For example, if we consider the
 example described below with models of User, DogHouse, and Review, I would only
-be able to edit or delete the reviews that I created. This protection should occur
-in the back end of the project. Simply altering the front end to hide the edit & delete 
-buttons is insufficient in terms of security. The code needed to secure these operations
-looks something like this `if current_user.id == post.user.id` assuming you have a
-current user method and a post belongs to a user. 
+be able to edit or delete the reviews that I created. This protection should
+occur in the back end of the project. Simply altering the front end to hide the
+edit & delete buttons is insufficient in terms of security. Assuming you have a
+current user method and a post belongs to a user, the code needed to secure
+these operations looks something like this: `if current_user.id ==
+post.user.id`.
 
 ## Project Setup
 
