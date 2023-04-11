@@ -34,10 +34,10 @@ For this project, you must:
     has-many-through relationships). **Note:** in order to accomplish this, your
     project must include a joins table. This joins table must include a user
     submittable attribute.
-  - Full CRUD actions for at least one resource. The update action should be
-    implemented using a form that is pre-filled with existing values for the
-    object. On submission of the form, the object should update. **Note:** Using
-    a `like` button or similar will not meet the update requirement.
+  - Full CRUD actions for the resource belonging to the two others (joins). 
+    The update action should be implemented using a form that is pre-filled with 
+    existing values for the object. On submission of the form, the object should update. 
+    **Note:** Using a `like` button or similar will not meet the update requirement.
   - Minimum of create and read actions for EACH resource.
 - Follow RESTful routing convention for backend routes.
 - [Active Record validations](https://guides.rubyonrails.org/active_record_validations.html)
@@ -68,7 +68,9 @@ be able to edit or delete the reviews that I created. This protection should occ
 in the backend of the project. Simply altering the front end to hide the edit & delete 
 buttons is insufficient in terms of security. The code needed to secure these operations
 looks something like this `if current_user.id == post.user.id` assuming you have a
-current user method and a post belongs to a user. 
+current user method and a post belongs to a user. Alternatively, the most performant way
+to implement this is `post = current_user.posts.find(params[:id])` with an if statement
+starting on the next line `if post` do something, `else` do something else.
 
 ## Project Setup
 
