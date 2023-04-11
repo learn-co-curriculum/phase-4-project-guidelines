@@ -72,6 +72,7 @@ current user method and a post belongs to a user. Alternatively, the most perfor
 to implement this is `post = current_user.posts.find(params[:id])` with an if statement
 starting on the next line `if post` do something, `else` do something else.
 
+
 ## Project Setup
 
 Once you've got a solid plan in place for your app and you're ready to start
