@@ -72,12 +72,14 @@ and a post belongs to a user, the code needed to secure these operations looks s
 
 Alternatively, the most performant way
 to implement this is:
-```post = current_user.posts.find(params[:id])
+```
+post = current_user.posts.find(params[:id])
 if post
   <do something>
 else
   <do something else>
-end```
+end
+```
 
 
 ## Project Setup
