@@ -70,7 +70,6 @@ buttons is insufficient in terms of security. Assuming you have a `current_user`
 looks something like this: `if current_user.id == post.user.id`.
 Alternatively, the most performant way
 to implement this is:
-starting on the next line `if post` do something, `else` do something else.
 
 
 ## Project Setup
