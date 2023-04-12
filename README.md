@@ -67,7 +67,7 @@ example described below with models of User, DogHouse, and Review, I would only
 be able to edit or delete the reviews that I created. This protection should occur
 in the back end of the project. Simply altering the front end to hide the edit & delete 
 buttons is insufficient in terms of security. The code needed to secure these operations
-looks something like this `if current_user.id == post.user.id` assuming you have a
+looks something like this: `if current_user.id == post.user.id`.
 current user method and a post belongs to a user. Alternatively, the most performant way
 to implement this is `post = current_user.posts.find(params[:id])` with an if statement
 starting on the next line `if post` do something, `else` do something else.
